@@ -1,0 +1,40 @@
+Purpose of Testing:
+-------------------
+
+Testing is a critical part of the software development process aimed at ensuring software reliability and robustness by identifying and resolving defects before the product reaches the end-user.
+
+It helps maintain code quality and improve performance, which in turn ensures user satisfaction and reduces maintenance costs.
+
+Jasmine:
+--------
+
+Jasmine is a behavior-driven development framework for testing JavaScript code.
+
+It is independent of any other frameworks and doesn’t require a DOM, making it ideal for testing any JavaScript functionality.
+
+Karma:
+------
+
+
+Karma is a test runner developed by the Angular team that allows you to execute tests written in Jasmine, Mocha, or QUnit.
+
+It can be configured to run tests against a variety of real browsers and devices, and it is particularly well-suited for Angular applications.
+
+Demos:
+
+- Installing Jasmine and karma and jasmine: automatically installed by angular CLI command "ng new .."
+- configure jasmine and karma: automatically configured by angular CLI command "ng new .."
+- run tests: ng test(starts karma test runner)
+- setting up Angular TestBed
+- example 1 
+  1. testing a simple method in a service
+  2. create math.service.ts
+  3. create math.service.spec.ts
+- example 2
+  1. testing component property binding
+  2. app.component.ts
+  3. app.component.spec.ts
+- example 3
+  1. testing event binding: designed to verify that clicking the button correctly increments the count property
+  2. click.component.ts
+  3. click.component.spec.ts
